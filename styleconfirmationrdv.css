@@ -1,0 +1,138 @@
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://s3-alpha-sig.figma.com/img/0cad/b94a/f35c8107bd3cd598fe535e1c997ff1a9?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZotFOkd7AWKw-X215XWDdwlRhAQDKN9xzhv9-Zagv-DMyal2L5JxroMB9D1IdjCIDLQYt1GUzaHvU45ur8of1EBqw~TaYq8-YMM36aLYcKygWXtaJ5rZUAHEIU6RFWbnKf9lFeBbEN5jXDX-fBdfhAIXICLlvBpnQizj59LZTHXLZgD5zf0SQeCBup-RI73t7kl-5slYU-BkhZZEWvq~06KahXf5TnMQEdBZCUMJIeMgt86AUxkXIOAv~Wfyi~tBJ3jwPXuwh6ynPymgM76KcbmWaLkYnZU-hB~nqhnlokycMI2Svn0pkRiLtA-JmgWx3AV5Pd6YnaLekuINSnVRmg__");
+    background-size: cover;
+    background-position: center;
+    filter:opacity(0.33);
+    z-index: -1; /* Derrière le contenu */
+    }
+
+
+
+
+    html body{
+        background: linear-gradient(to right,#EAEAEA, #FFFFFF);
+        font-family: Arial, sans-serif;
+        margin-top: auto;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+    }
+    
+    
+    
+    
+    .headBar{
+        background: linear-gradient(to top,#455A64, #5D7E8E);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        height: 120px;
+        align-items: center;
+    }
+    
+    .headBar2{
+        display: flex;
+        width: 60%;
+        height: 120px;
+        align-items: center;
+    }
+    
+    
+    .linkHeader {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .link {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        transition: background-color 1s, color 1s;
+    }
+    
+    .link:hover {
+        background-color: white;
+        color: #455A64;
+    }
+    
+    
+    .Logo{
+        height: 100%;
+        object-fit: contain;
+    
+    }
+    .title{
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 2.5em;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+/* Conteneur principal pour centrer le contenu */
+.main-content {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-self: center;
+    height: 45rem;
+}
+
+/* Rectangle Centré */
+.rectangle {
+    margin:auto;
+    width: 20em; /* Largeur relative */
+    height: 5em; /* Hauteur relative */
+    border-radius: 2em; /* Coins arrondis */
+    background: #FFF;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.25); /* Ombre en `em` */
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 2em; /* Taille de police relative à la taille de base */
+    font-weight: 600;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle p {
+    color:green;
+}
+/* Pied de page */
+.footBar {
+    background: linear-gradient(to top, #455A64, #5D7E8E);
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+.Logo{
+    height: 100%;
+    object-fit: contain;
+
+}
+.title{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}

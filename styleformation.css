@@ -1,0 +1,180 @@
+html body{
+    background: linear-gradient(to right,#EAEAEA, #FFFFFF);
+    font-family: Arial, sans-serif;
+    margin-top: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    min-height: 120vh;
+}
+
+
+
+
+.headBar{
+    background: linear-gradient(to top,#455A64, #5D7E8E);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    height: 120px;
+    align-items: center;
+}
+
+.headBar2{
+    display: flex;
+    width: 60%;
+    height: 120px;
+    align-items: center;
+}
+
+
+.linkHeader {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    transition: background-color 1s, color 1s;
+}
+
+.link:hover {
+    background-color: white;
+    color: #455A64;
+}
+
+
+.Logo{
+    height: 100%;
+    object-fit: contain;
+
+}
+.title{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Contenu Principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em; /* Espacement entre les rectangles */
+    padding: 5em 1em; /* Ajoute de l'espace en haut */
+    margin-top: 2em; /* Ajoute un espace entre la barre et le premier rectangle */
+    min-height: 80vh;
+}
+
+/* Rectangle Centré */
+.rectangle1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Texte à gauche, image à droite */
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 80%;
+    max-width: 900px;
+    gap: 1.5em;
+    line-height: 2.5em;
+    padding-left: 5em
+}
+
+.rectangle1 img {
+        width: 200px; /* Taille plus grande */
+        height: auto; /* Maintient les proportions */
+        object-fit: contain; /* Assure que l'image est visible entièrement */
+        margin-left: 1em; /* Ajoute de l'espace entre l'image et le texte */
+}
+
+.rectangle1 h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.rectangle1 p {
+    margin: 0.5em 0 0 0;
+    color: #555;
+    font-size: 1em;
+}
+
+
+
+/* Rectangle Centré */
+.rectangle2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Texte à gauche, image à droite */
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 80%;
+    max-width: 900px;
+    gap: 1.5em;
+    line-height: 2.5em;
+    padding-left: 5em;
+}
+
+.rectangle2 img {
+        width: 200px; /* Taille plus grande */
+        height: auto; /* Maintient les proportions */
+        object-fit: contain; /* Assure que l'image est visible entièrement */
+        margin-left: 0.5em; /* Ajoute de l'espace entre l'image et le texte */
+}
+
+.rectangle2 h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+
+/* Bouton dans les rectangles */
+.rectangle2 .button {
+    margin-left: 8em;
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.rectangle2 .button:hover {
+    background-color: #388E3C;
+}
+
+/* Pied de page (Footer) */
+.footBar {
+    background: linear-gradient(to top, #455A64, #5D7E8E);
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
