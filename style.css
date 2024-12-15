@@ -1,0 +1,172 @@
+html, body {
+    background: linear-gradient(to top, #F5F5F5, #E3E3EC);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #455A64; /* Bleu foncé uniforme */
+}
+.bloc-bienvenue{
+    height: 250px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+button {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: none;
+}
+.headBar {
+    background: linear-gradient(to top, #455A64, #5D7E8E);
+    display: flex;
+    align-items: center;
+    height: 120px;
+    color: #FFFFFF;
+}
+
+.headBar2 {
+    display: flex;
+    width: 60%;
+    height: 120px;
+    align-items: center;
+}
+
+.linkHeader {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    transition: background-color 1s, color 1s;
+}
+
+.link:hover {
+    background-color: white;
+    color: #455A64;
+}
+
+.footBar {
+    background: linear-gradient(to bottom, #455A64, #5D7E8E);
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    margin-top: 6em;
+}
+
+/* Petits rectangles */
+.petits-rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.petit-rec {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    color: #455A64;
+}
+
+.petit-rec h1 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.petit-rec p {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.petit-rec button {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+.petit-rec button:hover {
+    background-color: #388E3C;
+}
+.green{
+    color:#4CAF50;
+    font-size: 30px;
+}
+/* Rectangles généraux */
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em 2em;
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 2em;
+    color: #455A64;
+}
+
+.rectangle img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.rectangle button {
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rectangle button:hover {
+    background-color: #388E3C;
+}
